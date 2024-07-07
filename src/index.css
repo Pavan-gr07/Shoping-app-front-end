@@ -1,0 +1,18 @@
+a{
+  text-decoration: none;
+}
+.gradient-text {
+  display: inline-block;
+  background: linear-gradient(
+    141deg,
+    rgba(131, 56, 236, 1) 0%,
+    rgba(58, 134, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+* {
+  word-wrap: break-word;
+}
